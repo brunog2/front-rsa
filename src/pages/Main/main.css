@@ -1,0 +1,40 @@
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #0f0f0f
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: solid 1px transparent;
+    border-radius: 6px;
+    height: 38px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2B73D6;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button:hover {
+    transition: .2s;
+    background-color: rgba(50, 126, 233, 1);
+}

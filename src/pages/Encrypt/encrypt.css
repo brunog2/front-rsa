@@ -1,0 +1,31 @@
+.formContainer {
+    flex-direction: column;    
+}
+
+.input {           
+    border-radius: 5px; 
+    height: 40px;
+    box-sizing: border-box;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputText {
+    border: solid 1px #2B73D6;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;    
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.inputText:focus {
+    border: solid 2px #2B73D6;  
+}

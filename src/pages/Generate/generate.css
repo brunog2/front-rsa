@@ -1,0 +1,44 @@
+.formContainer {
+    flex-direction: column;    
+    width: 90%;
+    max-width: 280px;
+}
+
+.label {
+    margin-bottom: -8px;
+    margin-top: 7px;
+    color: #272727;
+    font-size: 14px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.input {        
+    border-radius: 5px; 
+    height: 40px;
+    box-sizing: border-box;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.inputText {
+    border-radius: inherit;
+    height: 90%;
+    width: 95%;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.inputText:focus {
+    border: solid 2px #2B73D6;  
+}
+
+.button {
+    margin-top: 15px;
+}
